@@ -24,7 +24,7 @@ void Theater::AddMovie(Movie& Movie){
 //Get movie for hour
 string Theater::GetMovieForHour(int Hour){
 
-	//There are only 24 hours in a day, assuming that
+	//There are only 24 hours in a day. Assuming that
 	//0 is the first hour and that 23 is the 24th,
 	//this eliminates hours that can't exist.
 	if(Hour <= 23 and Hour >= 0){
